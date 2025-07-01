@@ -1,8 +1,8 @@
 def detect_volume_drop(df):
     alerts = []
 
-    df = df.sort_values(["SKU", "Date"])
-    for sku, group in df.groupby("SKU"):
+    df = df.sort_values(["SKU", "Store #", "Date"])
+    for (sku, store), group in df.groupby(["SKU", "Store #"]):
         group = group.reset_index(drop=True)
         for i in range(1, len(group)):
             price_diff = group.loc[i, "Price"] - group.loc[i-1, "Price"]
@@ -11,6 +11,7 @@ def detect_volume_drop(df):
             if price_diff > 0 and units_diff < -0.10:
                 alerts.append({
                     "SKU": sku,
+                    "Store #": store,
                     "Date": group.loc[i, "Date"],
                     "Price": group.loc[i, "Price"],
                     "UnitsSold": group.loc[i, "UnitsSold"],

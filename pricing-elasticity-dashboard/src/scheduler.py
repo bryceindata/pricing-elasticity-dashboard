@@ -15,3 +15,8 @@ def weekly_update():
 
 if __name__ == "__main__":
     weekly_update()
+
+from src.visuals import plot_elasticity_by_store, plot_alert_counts
+
+plot_elasticity_by_store()
+plot_alert_counts()
