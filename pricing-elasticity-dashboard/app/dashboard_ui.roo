@@ -1,0 +1,22 @@
+{
+  "dashboard": {
+    "title": "Price Elasticity & Promo Alert Dashboard",
+    "components": [
+      {
+        "type": "line_chart",
+        "data_source": "outputs/elasticity_report.csv",
+        "x": "Date",
+        "y": ["Price", "UnitsSold"],
+        "group_by": "SKU"
+      },
+      {
+        "type": "table",
+        "data_source": "outputs/alerts.csv",
+        "columns": ["SKU", "Date", "Price", "UnitsSold", "VolumeDrop%", "Alert"],
+        "highlight": {
+          "VolumeDrop%": {"condition": "< -10", "color": "red"}
+        }
+      }
+    ]
+  }
+}
