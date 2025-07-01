@@ -1,0 +1,7 @@
+Category,SKU,Date,Item Description,UnitsSold,Price,Store #
+Beverage,A123,6/1/2025,Sparkling Water 12oz,120,10.99,Store001
+Beverage,A123,6/8/2025,Sparkling Water 12oz,100,11.99,Store001
+Beverage,A123,6/15/2025,Sparkling Water 12oz,90,11.99,Store001
+Snacks,B456,6/1/2025,Potato Chips 8oz,300,5.99,Store002
+Snacks,B456,6/8/2025,Potato Chips 8oz,270,6.49,Store002
+Snacks,B456,6/15/2025,Potato Chips 8oz,200,6.99,Store002

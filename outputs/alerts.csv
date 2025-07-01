@@ -1,0 +1,24 @@
+SKU,Store #,Date,Price,UnitsSold,VolumeDrop%,Alert
+A123,Store001,2025-07-27,11.49,146,-53.5,Price ↑ + Volume ↓ >10%
+A124,Store002,2025-07-27,1.69,144,-20.44,Price ↑ + Volume ↓ >10%
+A125,Store002,2025-06-15,2.99,106,-50.0,Price ↑ + Volume ↓ >10%
+B457,Store002,2025-08-10,4.29,53,-61.87,Price ↑ + Volume ↓ >10%
+B457,Store003,2025-07-06,4.29,97,-54.03,Price ↑ + Volume ↓ >10%
+B457,Store003,2025-08-10,4.29,153,-53.21,Price ↑ + Volume ↓ >10%
+B458,Store003,2025-07-20,1.49,106,-60.0,Price ↑ + Volume ↓ >10%
+C789,Store001,2025-07-27,1.09,94,-41.98,Price ↑ + Volume ↓ >10%
+C789,Store001,2025-08-10,1.09,96,-75.88,Price ↑ + Volume ↓ >10%
+C790,Store002,2025-08-10,1.69,262,-25.99,Price ↑ + Volume ↓ >10%
+C790,Store003,2025-06-08,1.49,82,-33.87,Price ↑ + Volume ↓ >10%
+C790,Store003,2025-06-15,1.69,56,-31.71,Price ↑ + Volume ↓ >10%
+D321,Store002,2025-08-03,3.49,128,-66.4,Price ↑ + Volume ↓ >10%
+D321,Store002,2025-08-03,3.49,112,-66.16,Price ↑ + Volume ↓ >10%
+D321,Store002,2025-08-10,3.49,143,-32.86,Price ↑ + Volume ↓ >10%
+D321,Store003,2025-07-27,3.49,130,-50.38,Price ↑ + Volume ↓ >10%
+D322,Store002,2025-07-06,1.09,133,-48.45,Price ↑ + Volume ↓ >10%
+D322,Store002,2025-07-20,1.09,117,-44.02,Price ↑ + Volume ↓ >10%
+D322,Store003,2025-07-13,1.09,79,-63.59,Price ↑ + Volume ↓ >10%
+D322,Store003,2025-08-10,1.09,62,-80.25,Price ↑ + Volume ↓ >10%
+D323,Store001,2025-06-22,0.69,80,-46.67,Price ↑ + Volume ↓ >10%
+D323,Store002,2025-07-27,0.69,261,-29.65,Price ↑ + Volume ↓ >10%
+D323,Store003,2025-06-15,0.79,165,-42.91,Price ↑ + Volume ↓ >10%

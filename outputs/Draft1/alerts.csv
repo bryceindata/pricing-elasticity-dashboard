@@ -1,0 +1,3 @@
+SKU,Store #,Date,Price,UnitsSold,VolumeDrop%,Alert
+A123,Store001,2025-06-08,11.99,100,-16.67,Price ↑ + Volume ↓ >10%
+B456,Store002,2025-06-15,6.99,200,-25.93,Price ↑ + Volume ↓ >10%
